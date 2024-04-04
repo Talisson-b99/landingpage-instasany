@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "green-primary": "#1D3531",
+        "green-light": "#5D8A83",
+        "green-dark": "#2A4B46",
+        "green-neon": "#CCEC60",
+      },
+      maxWidth: {
+        container: "77.5rem",
+      },
+
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero: `url('/bg-hero.svg')`,
       },
     },
   },
